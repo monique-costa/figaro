@@ -1,2 +1,2 @@
 # figaro
-Projeto para aula de LIMA
+Projeto de página estática para a aula de Linguagem de Marcação.
