@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style_figaro_renato.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<title>Fígaro - Reservas</title>
+			
+    </head>
+    
+    <body>
+
+        <header>
+            
+
+                <img src="figaro_logo.png" class="logo">
+    
+            
+    
+                <nav>
+                    <li><a href="figaro_index.html">Home</a></li>
+                    <li><a href="figaro_promo.html">Promoções</a></li>
+                    <li><a href="figaro_entradas.html">Entradas</a></li>
+                    <li><a href="figaro_principal.html">Pratos principais</a></li>
+                    <li><a href="figaro_sobremesas.html">Sobremesas</a></li>
+                    <li><a href="figaro_bebidas.html">Bebidas</a></li>
+                    <li><a href="figaro_formulario.html">Reservas</a></li>
+                </nav>
+    
+            
+        </header>
+
+        <main>
+
+            <h1 class="titulo-principal">Faça sua reserva agora mesmo!</h1>
+
+            <p>Nosso horário de funcionamento:</p><br>
+
+            <center>
+            <table>           
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+    
+                <tbody>            
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                            
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>                
+            </table>
+            </center>
+
+            <form>
+                <label for="nomesobrenome"> Nome e sobrenome: </label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+                
+                <label for="email"> E-mail: </label>
+                <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+
+                <label for="telefone"> Telefone: </label>
+                <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+                <label for="mensagem"> Mensagem: </label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                
+                <fieldset>
+               
+                    <legend>Como prefere o nosso contato? </legend>
+                    <label for="radio-email"> <input type="radio" name="contato" value="radio-email" id="radio-email"> Email </label>
+                    <label for="ligacao"> <input type="radio" name="contato" value="ligacao" id="ligacao"> Ligação </label>
+                    <label for="whatsapp"> <input type="radio" name="contato" value="Whatsapp" id="whatsapp" checked> Whatsapp </label>
+                    
+                </fieldset>
+
+                <label> <input type="checkbox" class="checkbox" checked> Gostaria de receber nossas promoções por email? </label>
+                <input type="submit" value="Enviar Pedido"  class="enviar">
+
+            </form>
+
+            
+        </main>
+
+        <footer>
+            
+            Copyright &copy; grupo Fígaro, 2020<br><br><br>
+            <img src="figaro_logo_preto.png" class="logo">
+            
+        </footer>
+
+    </body>
+
+</html>

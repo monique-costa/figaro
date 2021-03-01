@@ -1,0 +1,102 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	position: relative;
+	background: #ffffff;
+	padding: 30px 0;
+	width: 930px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	background: #D3E1A4;
+	padding: 5px;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+a {
+	color: #CE4520;
+	text-decoration: none;
+	font-weight: bold
+}
+
+nav a {
+	color: #000;
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: #85A421;
+}
+
+main {
+	width: 930px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pratos {
+	text-align: left;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.imagem {
+	
+}
+
+.caixa {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 10px;
+	background: #D3E1A4;
+	height: 130px;
+	width: 200px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #CE4520;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #85A421;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.descricao {
+	padding: 10px 10px;
+}
+
+.preco{
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+footer {
+	margin-top: 40px;
+	font-size: 11px;
+	color: #ffffff;
+	background: #000000;
+	padding: 60px 0 0 0;
+	text-align: center;
+}

@@ -1,0 +1,103 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	position: relative;
+	background: #ffffff;
+	padding: 10px 0;
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+nav {
+	text-align: center;
+	background: #D3E1A4;
+	padding: 5px;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+nav a {
+	font-family: sans-serif;
+	color: #000;
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	font-family: sans-serif;
+	color: #85A421;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Entradas{
+	float: left;
+}
+.titulo{
+
+	font-size: 25px;
+	font-weight: bold;
+	color: #CE4520;
+}
+
+
+h1{
+	text-align: center;
+	color: #85A421;
+
+}
+
+
+
+h4{
+		margin:45px;
+		text-align: center;
+
+}
+
+h2{
+	float: right;
+	margin-top: -25px;
+}
+
+div{
+	border: solid;
+	text-align: center;
+	background-color: #d3e1a4;
+}
+
+
+footer {
+	font-size: 11px;
+	color: #ffffff;
+	background: #000000;
+	padding: 60px 0;
+	text-align: center;
+}
+
+a {
+	color: #CE4520;
+	text-decoration: none;
+	font-weight: bold
+	text-align: center;
+  }

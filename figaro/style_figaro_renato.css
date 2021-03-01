@@ -1,0 +1,219 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	position: relative;
+	background: #ffffff;
+	padding: 30px 0;
+	width: 930px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	background: #D3E1A4;
+	padding: 5px;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+a {
+	color: #CE4520;
+	text-decoration: none;
+	font-weight: bold
+}
+
+nav a {
+	color: #000;
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: #85A421;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+section {
+	text-align: center;
+}
+
+.mapa {
+	padding: 3em 0;
+	text-align: center;
+	
+}
+
+.mapa p {
+    margin: 0 0 1em;
+    
+}
+
+.foto-restaurante {
+	width: 80%;
+	margin: 20px auto 40px auto;
+}
+
+footer {
+	
+	
+	font-size: 11px;
+	color: #ffffff;
+	background: #000000;
+	padding: 50px 0;
+	text-align: center;
+}
+
+
+/* CSS promoções */
+
+
+#fotopromocao {
+	width: 60%;
+}
+
+#fotopromocao1 {
+	width: 60%;
+}
+
+.promocao {
+	text-align: left;
+	margin: 40px 50px;
+}
+
+.texto-promocao {
+	
+	height: 255px;
+    width: 230px;
+	background-color: #d3e1a4;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 60px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+main p {
+	text-align: center;
+}
+
+.texto-promocao h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: darkgreen;
+	
+
+}
+
+.drescricao {
+	margin: 50px 0;
+}
+
+.preco {
+	margin: 110px 0;
+	font-size: 20px;
+}
+
+/* CSS Formulário */
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%; 
+
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #96c794;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+ }
+
+ .enviar:hover {
+     background-color: darkgreen;
+     transform: scale(1.2);
+
+ }
+ 
+table {
+	margin: 20px 0 40px;
+
+}
+
+thead {
+	background-color: #555555;
+	color: white;
+	font-weight: bold;
+	
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+
+
+
+
+
+
+
+
